@@ -2,6 +2,7 @@
 #include "DxLib.h"
 #include <cmath>
 
+
 // コンストラクタ
 // 地球の位置・大きさ・HPを初期値に設定する
 Earth::Earth() : m_pos{ 0.0, 0.0 }, m_size(0.0), m_hp(5) {
